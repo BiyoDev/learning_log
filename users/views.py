@@ -15,10 +15,8 @@ def register(request):
 
         if form.is_valid():
             new_user = form.save()
-            #Log the user in and then redirect to home 
-            authenticated_user = authenticate(username=new_user.username, 
-                                              password=request.POST['password1'])
-            login(request, authenticated_user)
+            # Log the user in and then redirect to home page.
+            login(request, new_user)
             return HttpResponseRedirect(reverse('learning_logs:index'))
     
     context = {'form': form}
