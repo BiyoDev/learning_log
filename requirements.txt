@@ -1,0 +1,5 @@
+asgiref @ file:///home/task_177184281161208/croot/asgiref_1771842846079/work
+Django @ file:///home/task_176432920734718/conda-bld/django_1764329221349/work
+django-bootstrap5==26.2
+packaging @ file:///home/task_176104885106445/conda-bld/packaging_1761049078006/work
+sqlparse @ file:///home/task_176423983293891/conda-bld/sqlparse_1764240030081/work
